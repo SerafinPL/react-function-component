@@ -8,9 +8,6 @@ import Napis from './mods/Literki/napis';
 
 
 
-
-
-
 const literki =() => {
 
 ReactDOM.render(
