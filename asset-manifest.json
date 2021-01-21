@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/SerafinPL/react-function-component.git/static/css/main.00f0ccc6.chunk.css",
+    "main.js": "/SerafinPL/react-function-component.git/static/js/main.002c14d1.chunk.js",
+    "main.js.map": "/SerafinPL/react-function-component.git/static/js/main.002c14d1.chunk.js.map",
+    "runtime-main.js": "/SerafinPL/react-function-component.git/static/js/runtime-main.4eb6afe2.js",
+    "runtime-main.js.map": "/SerafinPL/react-function-component.git/static/js/runtime-main.4eb6afe2.js.map",
+    "static/js/2.db9dc999.chunk.js": "/SerafinPL/react-function-component.git/static/js/2.db9dc999.chunk.js",
+    "static/js/2.db9dc999.chunk.js.map": "/SerafinPL/react-function-component.git/static/js/2.db9dc999.chunk.js.map",
+    "index.html": "/SerafinPL/react-function-component.git/index.html",
+    "static/css/main.00f0ccc6.chunk.css.map": "/SerafinPL/react-function-component.git/static/css/main.00f0ccc6.chunk.css.map",
+    "static/js/2.db9dc999.chunk.js.LICENSE.txt": "/SerafinPL/react-function-component.git/static/js/2.db9dc999.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4eb6afe2.js",
+    "static/js/2.db9dc999.chunk.js",
+    "static/css/main.00f0ccc6.chunk.css",
+    "static/js/main.002c14d1.chunk.js"
+  ]
+}
