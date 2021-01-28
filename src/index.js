@@ -5,16 +5,30 @@ import App from './App';
 
 import Link from './Linki/linki';
 import Napis from './mods/Literki/napis';
+import Karta from './mods/Karty/Karty';
 
 
 
 const literki =() => {
 
-ReactDOM.render(
-  <Napis/>,
-  document.getElementById('root')
-);
+	ReactDOM.render(
+	  <Napis/>,
+	  document.getElementById('root')
+	);
 }
+
+const karty = () => {
+	ReactDOM.render(
+		<div>
+			<Karta color='#74a5b2'/>
+			<Karta color='#32asd8'/>
+			<Karta color='#ca5d8e'/>
+			<Karta color='#4358ac'/>
+		</div>,
+		document.getElementById('root')	
+	);
+}
+
 
 ReactDOM.render(
   <div>

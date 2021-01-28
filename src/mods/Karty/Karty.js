@@ -22,3 +22,5 @@ const Karta = (props) =>{
         </div>
 	);
 }
+
+export default Karta;
