@@ -6,8 +6,10 @@ const stylKwadratu = {
 }
 
 const Kwadrat = (props) => {
-	<div style = {stylKwadratu}>
-    </div>
+	return(
+		<div style = {stylKwadratu}>
+	    </div>
+    );
 }
 
 export default Kwadrat;
