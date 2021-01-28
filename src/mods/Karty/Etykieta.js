@@ -8,8 +8,10 @@ const stylEtykiety = {
         margin: 0
       }
 
-const Etykieta = () =>{
+const Etykieta = (props) =>{
 		return(
 			<p style={stylEtykiety}> {this.props.color} </p>
-		)
+		);
 }
+
+export default Etykieta;
