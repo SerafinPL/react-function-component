@@ -18,12 +18,23 @@ const literki =() => {
 }
 
 const karty = () => {
+
+	const kolory = [];
+
+	for (let i=0; i<4 ;i++){
+		const x = Math.floor(Math.random() * 255).toString(16);
+		const y = Math.floor(Math.random() * 255).toString(16);
+		const z = Math.floor(Math.random() * 255).toString(16);
+		kolory[i] = x + y + z;
+		console.log(kolory[i]);
+	}
+
 	ReactDOM.render(
 		<div>
-			<Karta color='#74a5b2'/>
-			<Karta color='#32asd8'/>
-			<Karta color='#ca5d8e'/>
-			<Karta color='#4358ac'/>
+			<Karta color={kolory[0]}/>
+			<Karta color={kolory[1]}/>
+			<Karta color={kolory[2]}/>
+			<Karta color={kolory[4]}/>
 		</div>,
 		document.getElementById('root')	
 	);
@@ -32,6 +43,7 @@ const karty = () => {
 
 ReactDOM.render(
   <div>
+  	<Link children="Karty" click={karty}/>
     <Link children="Literki" click={literki}/>
     <Link children="próba2" />
     <Link children="próba3" />

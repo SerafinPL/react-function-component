@@ -1,11 +1,14 @@
 import React from 'react';
 
-const stylKwadratu = {
-	height: 150,
-    backgroundColor: this.props.color
-}
+
 
 const Kwadrat = (props) => {
+
+	const stylKwadratu = {
+	height: 150,
+    backgroundColor: props.color
+}
+
 	return(
 		<div style = {stylKwadratu}>
 	    </div>

@@ -17,8 +17,8 @@ const Karta = (props) =>{
 
 	return(
 		<div style={stylKarty}>
-            <Kwadrat color={this.props.kolorkarty}/>
-            <Etykieta color={this.props.kolorkarty}/>
+            <Kwadrat color={props.kolorkarty}/>
+            <Etykieta color={props.kolorkarty}/>
         </div>
 	);
 }
