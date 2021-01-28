@@ -5,7 +5,7 @@ import App from './App';
 
 import Link from './Linki/linki';
 import Napis from './mods/Literki/napis';
-import Karta from './mods/Karty/Karty';
+import Talja from './mods/Karty/Talja';
 
 
 
@@ -19,22 +19,11 @@ const literki =() => {
 
 const karty = () => {
 
-	const kolory = [];
-
-	for (let i=0; i<4 ;i++){
-		const x = Math.floor(Math.random() * 255).toString(16);
-		const y = Math.floor(Math.random() * 255).toString(16);
-		const z = Math.floor(Math.random() * 255).toString(16);
-		kolory[i] = x + y + z;
-		console.log(kolory[i]);
-	}
+	
 
 	ReactDOM.render(
 		<div>
-			<Karta color={kolory[0]}/>
-			<Karta color={kolory[1]}/>
-			<Karta color={kolory[2]}/>
-			<Karta color={kolory[4]}/>
+			<Talja/>
 		</div>,
 		document.getElementById('root')	
 	);

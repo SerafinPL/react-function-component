@@ -10,7 +10,7 @@ const stylEtykiety = {
 
 const Etykieta = (props) =>{
 		return(
-			<p style={stylEtykiety}> {this.props.color} </p>
+			<p style={stylEtykiety}> {props.color} </p>
 		);
 }
 
