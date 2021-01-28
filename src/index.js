@@ -22,9 +22,9 @@ const karty = () => {
 	
 
 	ReactDOM.render(
-		<div>
+		
 			<Talja/>
-		</div>,
+		,
 		document.getElementById('root')	
 	);
 }
