@@ -1,11 +1,11 @@
 import React from 'react';
 
-import './LicznikPiorunow.module.css';
+import styles from './LicznikPiorunow.module.css';
 
 const Licznik = () => {
 
 	return(
-		<h1 className='licznik'>Licznik</h1>
+		<h1 className={styles.licznik}>Licznik</h1>
 	)
 
 }

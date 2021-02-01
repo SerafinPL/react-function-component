@@ -24,9 +24,13 @@ const OpisPiorunow = () =>{
           };
 
           return(
+          <React.Fragment>
           	<h2 style={stylTekstu.duzy}>Liczba uderzeń piorunów </h2>
           	<h2 style={stylTekstu.sredni}>na całym świecie </h2>
           	<p style={stylTekstu.maly}>(od otwarcia strony) </p>
           	<p style={stylTekstu.maly}>(według średniej z NatonalGeografic) </p>
+          </React.Fragment>
           );
-}
+} // OpisPiorunów
+
+export default OpisPiorunow;

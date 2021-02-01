@@ -2,13 +2,18 @@ import React from 'react';
 import Licznik from './LicznikPiorunow';
 import Opis from './Opis';
 
-import './Wyswietlacz.module.css';
+import styles from'./Wyswietlacz.module.css';
 
 const Wyswietlacz = () => {
 
 
 	return(
-		<p>Wyswietlacz</p>
+		<div className={styles.wyswietlacz}>
+			
+			<Licznik/>
+
+			<Opis/>
+		</div>
 	)
 }
 
