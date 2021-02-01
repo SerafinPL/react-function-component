@@ -11,11 +11,12 @@ const Licznik = () => {
 		);
 
 	const timerStorm = () =>{
-
-		let pior = piorunyState;
+ 
+		let pior = piorunyState + 100;
+		
 		piorunySetState(
-			pior + 100
-		)
+			pior 
+		);
 
 		
 	}
