@@ -1,4 +1,4 @@
-import React, { useState }  from 'react';
+import React, { useState, useEffect }  from 'react';
 
 import styles from './LicznikPiorunow.module.css';
 
@@ -12,16 +12,15 @@ const Licznik = () => {
 
 	const timerStorm = () =>{
  
-		let pior = piorunyState + 100;
-		
-		piorunySetState(
-			pior 
-		);
-
-		
+		piorunySetState(prev => prev + 100);
 	}
 
-	setInterval(timerStorm, 1000);
+	useEffect(() => {
+		const interval = setInterval(timerStorm, 1000);
+		return () => clearInterval(interval);
+	}, []);
+
+	
 
 	return(
 		<h1 className={styles.licznik}>{piorunyState}</h1>
