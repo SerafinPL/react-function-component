@@ -6,6 +6,10 @@ import './Wyswietlacz.module.css';
 
 const Wyswietlacz = () => {
 
+
+	return(
+		<p>Wyswietlacz</p>
+	)
 }
 
 export default Wyswietlacz;
