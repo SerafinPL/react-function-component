@@ -1,12 +1,12 @@
 import React, {useState} from 'react';
-import './linki.css';
+import styles from './linki.module.css';
 
 const Link = (props) => {
 
 
 
 	return(
-		<button onClick={props.click}>{props.children}</button>
+		<button onClick={props.click} className={styles.Butt}>{props.children}</button>
 
 	)
 }

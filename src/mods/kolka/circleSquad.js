@@ -22,7 +22,7 @@ const CircleSquad = () => {
 
     	}
 
-    	console.log(colorsCircle);
+    	
     	return(
     			colorsCircle
     		);	
