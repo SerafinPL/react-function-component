@@ -18,7 +18,7 @@ const Talja = () => {
 
 		for (let i=0; i<8 ;i++){
 			
-			karty[i] = (
+			karty.push(
 				<Karta key={i} kolorkarty={'#' + losoweKolory() + losoweKolory() + losoweKolory()}/>
 			)
 			
