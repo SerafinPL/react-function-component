@@ -15,6 +15,7 @@
         height: 250px;
         border-radius: 10px;
         text-align: center;
+        box-shadow: 0 5px 5px #111;
     }
 
 .styleButton{
