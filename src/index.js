@@ -7,6 +7,7 @@ import Link from './Linki/linki';
 import Napis from './mods/Literki/napis';
 import Talja from './mods/Karty/Talja';
 import WyswietlaczPiorunow from './mods/Pioruny/Wyswietlacz';
+import CircleSquad from './mods/kolka/circleSquad';
 
 
 
@@ -32,14 +33,22 @@ const pioruny = () => {
 	);
 }
 
+const circle = () => {
+	ReactDOM.render(
+		<CircleSquad/>,
+		document.getElementById('root')	
+	);
+}
+
 
 ReactDOM.render(
   <div>
+  	<Link children="Kółka" click={circle} />
   	<Link children="Pioruny" click={pioruny} />
   	<Link children="Karty" click={karty}/>
     <Link children="Literki" click={literki}/>
     
-    <Link children="próba3" />
+    
   </div>,
   document.getElementById('linki')
 );

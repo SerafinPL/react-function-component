@@ -11,6 +11,8 @@ const Circle = (props) =>{
         
 	};
 
+	
+
 	return(
 			<div style={colorStyle} className={styles.circle}></div>
             
