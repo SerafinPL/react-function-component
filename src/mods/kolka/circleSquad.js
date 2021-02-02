@@ -14,25 +14,36 @@ const CircleSquad = () => {
 
     const showAllCircle = () => {
 
-        let circles = [];
-        for (let i=0; i < colors.length; i++) {
-            circles.push(<Circle key={'all' + i} bgColor={colors[i]}/>)
-        }
+        let circles = colors.map((value, index) => (
+                <Circle key={'all' + index} bgColor={value}/>
+            ));
+
+        
+        // for (let i=0; i < colors.length; i++) {
+        //     circles.push()
+        // }
 
         return circles;
     }
 
     const showCircleRandomly = () => {
 
-    	let colorsCircle = [];
+    	let colorsCircle = colors.map((value, index) => {
+
+                    const random = Math.floor(Math.random() * colors.length);
+
+                    return(<Circle key={'random' + index} bgColor={colors[random]}/>)
+
+                }
+            );
     	
 
-    	for (let i = 0; i < colors.length; i++ ) {
-    		const random = Math.floor(Math.random() * colors.length);
+    	// for (let i = 0; i < colors.length; i++ ) {
+    	// 	const random = Math.floor(Math.random() * colors.length);
 
-    		colorsCircle.push(<Circle key={'random' + i} bgColor={colors[random]}/>);
+    	// 	colorsCircle.push(<Circle key={'random' + i} bgColor={colors[random]}/>);
 
-    	}
+    	// }
 
     	
     	return(
