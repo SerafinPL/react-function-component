@@ -1,0 +1,9 @@
+
+.circle {
+	padding: 10px;
+    margin: 20px;
+    display: inline-block;
+    border-radius: 50%;
+    width: 100px;
+    height:100px;
+}
