@@ -8,6 +8,7 @@ import Napis from './mods/Literki/napis';
 import Talja from './mods/Karty/Talja';
 import WyswietlaczPiorunow from './mods/Pioruny/Wyswietlacz';
 import CircleSquad from './mods/kolka/circleSquad';
+import CounterParent from './mods/Licznik/counterParent';
 
 
 

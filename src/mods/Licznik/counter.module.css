@@ -16,3 +16,18 @@
         border-radius: 10px;
         text-align: center;
     }
+
+.styleButton{
+            font-size: 1em;
+            font-family: monospace;
+            color: #333;
+            font-weight: bold;
+            width: 30px;
+            height: 30px;
+            line-height: 3px;
+            text-align: center;
+          };
+
+.para {
+		color: #333;
+}
