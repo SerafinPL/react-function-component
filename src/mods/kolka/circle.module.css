@@ -7,3 +7,11 @@
     width: 100px;
     height:100px;
 }
+
+.blok {
+	background-color: #030303;
+	border-radius: 10px;
+	box-shadow: 0 2px 3px #aaa;
+	margin-bottom: 20px;
+	text-align: center;
+}
