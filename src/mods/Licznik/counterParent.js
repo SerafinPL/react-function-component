@@ -22,7 +22,7 @@ const CounterParent = () => {
 
 	return(
 			<div className={styles.backGround}>
-				<Counter diplay={count}/>
+				<Counter display={count}/>
 				<button onClick={increase} className={styles.styleButton} >+1</button>
 				<p className={styles.para}>Naciśnij Shift i zobacz różnice</p>
 			</div>

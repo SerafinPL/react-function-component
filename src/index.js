@@ -41,9 +41,16 @@ const circle = () => {
 	);
 }
 
+const counter = () => {
+	ReactDOM.render(
+		<CounterParent/>,
+		document.getElementById('root')	
+	);
+}
 
 ReactDOM.render(
   <div>
+  	<Link children="Licznik" click={counter}/>
   	<Link children="Kółka" click={circle} />
   	<Link children="Pioruny" click={pioruny} />
   	<Link children="Karty" click={karty}/>
