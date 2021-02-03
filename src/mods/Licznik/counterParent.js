@@ -1,7 +1,9 @@
 import React, { useState }from 'react';
 
+import PlusButton from './PlusButton';
 import Counter from './counter';
-import styles from './counter.module.css'
+import styles from './counter.module.css';
+
 
 const CounterParent = () => {
 
@@ -23,7 +25,7 @@ const CounterParent = () => {
 	return(
 			<div className={styles.backGround}>
 				<Counter display={count}/>
-				<button onClick={increase} className={styles.styleButton} >+1</button>
+				<PlusButton clickFunction={increase}/>
 				<p className={styles.para}>Naciśnij Shift i zobacz różnice</p>
 			</div>
 	)
