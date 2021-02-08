@@ -12,7 +12,7 @@ const Colorizer = (props) => {
 
 
 	let squareStyle = {
-          backgroundColor: colorHook
+          backgroundColor: colorBGHook
         };
 
     const textInput = useRef(null);
