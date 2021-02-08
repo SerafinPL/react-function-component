@@ -47,7 +47,7 @@ const Colorizer = (props) => {
             </form>
             <LabelColor color={colorBGHook}/>
             <p>Wpisz nazwe koloru po angielsku</p>
-            <LabelColor color="test"/>
+            
           </div>
         
 		
