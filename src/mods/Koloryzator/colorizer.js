@@ -9,3 +9,5 @@ const Colorizer = (props) => {
 		<LabelColor color="test"/>
 	);
 }
+
+export default Colorizer;

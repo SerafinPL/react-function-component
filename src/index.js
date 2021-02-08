@@ -9,6 +9,7 @@ import Talja from './mods/Karty/Talja';
 import WyswietlaczPiorunow from './mods/Pioruny/Wyswietlacz';
 import CircleSquad from './mods/kolka/circleSquad';
 import CounterParent from './mods/Licznik/counterParent';
+import Colorizer from './mods/Koloryzator/colorizer';
 
 
 
@@ -48,8 +49,16 @@ const counter = () => {
 	);
 }
 
+const colorizer = () => {
+	ReactDOM.render(
+		<Colorizer/>,
+		document.getElementById('root')	
+	);
+}
+
 ReactDOM.render(
   <div>
+  	<Link children="Koloryzator" click={colorizer}/>
   	<Link children="Licznik" click={counter}/>
   	<Link children="Kółka" click={circle} />
   	<Link children="Pioruny" click={pioruny} />
