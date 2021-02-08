@@ -7,6 +7,8 @@
 	width: 25%;
 	margin: 0;
 	padding: 10px;
+	height: 100vh;
+
 }
 
 
@@ -18,4 +20,11 @@
 	padding: 30px;
 }
 
+#etykieta{
+	float: left;
+	width: 75%;
+	margin: 0;
+	padding: 30px;
+	color: #FFF;
+}
 
