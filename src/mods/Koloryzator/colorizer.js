@@ -33,8 +33,8 @@ const Colorizer = (props) => {
       }
 
 	return(
-
-		
+        <div>
+		      
           <div className={styles.colorArea}>
             <div style={squareStyle} className={styles.colorSquare}></div>
 
@@ -47,11 +47,11 @@ const Colorizer = (props) => {
             </form>
             <LabelColor color={colorBGHook}/>
             <p>Wpisz nazwe koloru po angielsku</p>
-            
+
             
           </div>
         
-		
+		    </div>
 	);
 }
 

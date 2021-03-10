@@ -3,6 +3,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import {BrowserRouter, NavLink, Route} from 'react-router-dom';
 
 
 import Link from './Linki/linki';
@@ -23,17 +24,16 @@ const App = () =>  {
     <div className="App">
       	
     	<nav className="linki">
-    		<Link children="Koloryzator" />
-		  	<Link children="Licznik" />
-		  	<Link children="Kółka"  />
-		  	<Link children="Pioruny"  />
-		  	<Link children="Karty" />
-		    <Link children="Literki" />
+    		<NavLink to='/colorizer' >Koloryzator</NavLink>
+		  	<NavLink to='/counter' >Licznik</NavLink>
+		  	<NavLink to='/circle'  >Kółka</NavLink>
+		  	<NavLink to='/lightning'  >Pioruny</NavLink>
+		  	<NavLink to='/cards' >Karty</NavLink>
+		    <NavLink to='/letters' >Literki</NavLink>
     	</nav>
-	    <header className="App-header">
-	     
-	    </header>
+	    
 	    <div className='root'>
+	    	
 	    	<Colorizer/>
 	    	<CounterParent/>
 	    	<CircleSquad/>
