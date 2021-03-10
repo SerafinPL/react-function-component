@@ -7,12 +7,12 @@ import {BrowserRouter, NavLink, Route} from 'react-router-dom';
 
 
 import Link from './Linki/linki';
-import Napis from './mods/Literki/napis';
-import Talja from './mods/Karty/Talja';
-import WyswietlaczPiorunow from './mods/Pioruny/Wyswietlacz';
-import CircleSquad from './mods/kolka/circleSquad';
-import CounterParent from './mods/Licznik/counterParent';
-import Colorizer from './mods/Koloryzator/colorizer';
+import Napis from './mods/Letters/napis';
+import Talja from './mods/Cards/Talja';
+import WyswietlaczPiorunow from './mods/Lightning/Wyswietlacz';
+import CircleSquad from './mods/CircleSquad/circleSquad';
+import CounterParent from './mods/Counter/counterParent';
+import Colorizer from './mods/Colorizer/colorizer';
 
 
 
