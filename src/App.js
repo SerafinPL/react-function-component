@@ -34,12 +34,12 @@ const App = () =>  {
 	    
 	    <div className='root'>
 	    	
-	    	<Colorizer/>
-	    	<CounterParent/>
-	    	<CircleSquad/>
-	    	<WyswietlaczPiorunow/>
-	    	<Talja/>
-	    	<Napis/>
+	    	<Route path='/colorizer' component={Colorizer}/>
+	    	<Route path='/counter' component={CounterParent}/>
+	    	<Route path='/circle' component={CircleSquad}/>
+	    	<Route path='/lightning' component={WyswietlaczPiorunow}/>
+	    	<Route path='/cards' component={Talja}/>
+	    	<Route path='/letters' component={Napis}/>
 	    </div>
 
     </div>
