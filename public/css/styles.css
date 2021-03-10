@@ -2,29 +2,10 @@
 	box-sizing: border-box;
 }
 
-#linki{
-	float: left;
-	width: 25%;
-	margin: 0;
-	padding: 10px;
-	height: 100vh;
-
-}
-
-
-
-#root{
-	float: left;
-	width: 75%;
-	margin: 0;
-	padding: 30px;
-}
-
 #etykieta{
-	float: left;
+	float: right;
 	width: 75%;
 	margin: 0;
 	padding: 30px;
 	color: #FFF;
 }
-

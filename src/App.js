@@ -3,7 +3,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+
 
 import Link from './Linki/linki';
 import Napis from './mods/Literki/napis';
@@ -22,18 +22,18 @@ const App = () =>  {
   return (
     <div className="App">
       	
-    	<nav>
-    		<Link children="Koloryzator" click={colorizer}/>
-		  	<Link children="Licznik" click={counter}/>
-		  	<Link children="Kółka" click={circle} />
-		  	<Link children="Pioruny" click={pioruny} />
-		  	<Link children="Karty" click={karty}/>
-		    <Link children="Literki" click={literki}/>
+    	<nav className="linki">
+    		<Link children="Koloryzator" />
+		  	<Link children="Licznik" />
+		  	<Link children="Kółka"  />
+		  	<Link children="Pioruny"  />
+		  	<Link children="Karty" />
+		    <Link children="Literki" />
     	</nav>
 	    <header className="App-header">
-	      <p>To jest app js</p>
+	     
 	    </header>
-	    <div>
+	    <div className='root'>
 	    	<Colorizer/>
 	    	<CounterParent/>
 	    	<CircleSquad/>
