@@ -3,70 +3,15 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 
-import Link from './Linki/linki';
-import Napis from './mods/Literki/napis';
-import Talja from './mods/Karty/Talja';
-import WyswietlaczPiorunow from './mods/Pioruny/Wyswietlacz';
-import CircleSquad from './mods/kolka/circleSquad';
-import CounterParent from './mods/Licznik/counterParent';
-import Colorizer from './mods/Koloryzator/colorizer';
 
 
-
-const literki =() => {
-
-	ReactDOM.render(
-	  <Napis/>,
-	  document.getElementById('root')
-	);
-}
-
-const karty = () => {
-	ReactDOM.render(
-		<Talja/>,
-		document.getElementById('root')	
-	);
-}
-
-const pioruny = () => {
-	ReactDOM.render(
-		<WyswietlaczPiorunow/>,
-		document.getElementById('root')	
-	);
-}
-
-const circle = () => {
-	ReactDOM.render(
-		<CircleSquad/>,
-		document.getElementById('root')	
-	);
-}
-
-const counter = () => {
-	ReactDOM.render(
-		<CounterParent/>,
-		document.getElementById('root')	
-	);
-}
-
-const colorizer = () => {
-	ReactDOM.render(
-		<Colorizer/>,
-		document.getElementById('root')	
-	);
-}
 
 ReactDOM.render(
   <div>
-  	<Link children="Koloryzator" click={colorizer}/>
-  	<Link children="Licznik" click={counter}/>
-  	<Link children="Kółka" click={circle} />
-  	<Link children="Pioruny" click={pioruny} />
-  	<Link children="Karty" click={karty}/>
-    <Link children="Literki" click={literki}/>
+  	<App/>
     
     
   </div>,
-  document.getElementById('linki')
+  document.getElementById('root')
 );
 
